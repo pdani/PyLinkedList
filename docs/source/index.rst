@@ -20,6 +20,10 @@ Building documentation
 
 ``$ python setup.py build_sphinx``
 
+The generated docs can be found here:
+docs/build/index.html
+
+
 Running test suite
 ==================
 

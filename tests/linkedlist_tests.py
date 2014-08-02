@@ -33,19 +33,19 @@ class ReverseTestCase(TestCase):
         r.reverse()
         self.assertEqual(r, l)
 
-    def test_22rev_loop_nil(self):
+    def test_22rev_loop_single(self):
         l = LinkedList([1])
         r = LinkedList([1])
         r.reverse()
         self.assertEqual(r, l)
 
-    def test_23rev_loop_nil(self):
+    def test_23rev_loop_multiple(self):
         l = LinkedList([1, 2, 3])
         r = LinkedList([3, 2, 1])
         r.reverse()
         self.assertEqual(r, l)
 
-    def test_24rev_loop_nil(self):
+    def test_24rev_loop_twice(self):
         l = LinkedList([1, 2, 3])
         r = LinkedList([1, 2, 3])
         r.reverse()
