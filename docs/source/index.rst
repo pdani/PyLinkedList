@@ -6,6 +6,11 @@
 PyLinkedList: Python implementation of a singly-linked list
 ===========================================================
 
+Requirements
+------------
+
+* Python 2.7+
+
 Installation
 ------------
 

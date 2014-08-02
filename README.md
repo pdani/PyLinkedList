@@ -10,6 +10,11 @@ $ cd <project_dir>
 $ python setup.py install
 ```
 
+Requirements
+============
+
+Python 2.7+
+
 Documentation
 =============
 
