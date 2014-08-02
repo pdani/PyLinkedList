@@ -13,7 +13,7 @@ $ python setup.py install
 Requirements
 ============
 
-Python 2.7+
+* Python 2.7+
 
 Documentation
 =============
