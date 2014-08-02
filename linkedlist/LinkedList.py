@@ -1,5 +1,3 @@
-from operator import concat
-
 class LinkedList(object):
     """Python implementation of a singly-linked list"""
 
