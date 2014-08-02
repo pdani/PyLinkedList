@@ -5,16 +5,17 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'description': 'My Project',
-    'author': 'My Name',
-    'url': 'URL to get it at.',
-    'download_url': 'Where to download it.',
-    'author_email': 'My email.',
+    'description': 'Python implementation of a singly-linked list',
+    'author': 'Daniel Pek',
+    'url': 'https://github.com/pdani/PyLinkedList',
+    'download_url': 'https://github.com/pdani/PyLinkedList',
+    'author_email': 'pekdaniel@gmail.com',
     'version': '0.1',
-    'install_requires': ['nose'],
+    'install_requires': [],
     'packages': ['linkedlist'],
     'scripts': [],
-    'name': 'projectname'
+    'name': 'PyLinkedList',
+    'test_suite': 'tests'
 }
 
 setup(**config)
